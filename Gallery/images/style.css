@@ -1,0 +1,165 @@
+
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+        /* header */
+        header {
+            background-color:white;
+            color: black;
+            padding: 15px;
+            text-align: center;
+           
+           height: 100px;
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+        }
+
+        
+        .logo{
+            width: 60px;
+            height: 56px;
+            /* padding: 20px 5px; */
+        }
+        .logo img{
+            width: 100%;
+            height: 100%;
+            /* padding: 0 12px; */
+        }
+
+        .clock{
+            display: flex;
+        }
+
+        .contact{
+            display: flex;
+        }
+
+        .email{
+            display: flex;
+        }
+        .clock i{
+            /* margin-top: 5px; */
+            padding-right: 10px;
+            font-size: 3rem;
+        }
+
+        .contact i{
+            /* margin-top: 5px; */
+            padding-right: 10px;
+            font-size: 3rem;
+        }
+
+        .email i{
+            /* margin-top: 5px; */
+            padding-right: 10px;
+            font-size: 3rem;
+        }
+
+        /* navbar */
+
+        nav{
+            background: #129087;
+            padding: 10px;
+            height: 64px !important;
+            text-align: center;
+            position: sticky;
+            top: 0%;
+            z-index: 1000; 
+        }
+
+        nav ul{
+            display: flex;
+            /* flex-direction: row; */
+            flex-wrap: wrap;
+            line-height: 30px;
+        }
+         nav li{
+            list-style: none;
+          
+         }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .banner {
+            background: url('hero-sec-1.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 600px;
+            
+            /* text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bolder; */
+        }
+
+        .banner-text{
+            padding-top: 110px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bolder;
+            line-height: 4rem;
+        }
+
+        .banner-text h1{
+            font-size: 71px;
+            padding-top: 15px;
+            line-height: 5.5rem;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .product-box {
+            width: 200px;
+            height: 250px;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .product-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .product-box button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    
